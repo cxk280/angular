@@ -225,7 +225,7 @@ Unfortunately, immediately after this change, the application breaks.
 If you looked in the browser console, you'd see Angular complaining that
 "`ngModel` ... isn't a known property of `input`."
 
-Although `NgModel` is a valid Angular directive, it isn't available by default.
+Although `ngModel` is a valid Angular directive, it isn't available by default.
 It belongs to the optional `FormsModule`.
 You must opt-in to using that module.
 
